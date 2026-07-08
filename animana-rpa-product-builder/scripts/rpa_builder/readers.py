@@ -159,20 +159,28 @@ def read_copy_paste_list(path: Path) -> list[str]:
     return _dedupe_nonempty(names)
 
 
-def classify_copy_paste_file(path: Path) -> str:
+def classify_copy_paste_file(path: Path) -> str | None:
     """Distinguish a 'toeslagen' (1 price column) vs 'margeregels' (2 price
     columns) copy-paste file by counting tab-separated fields per data line
     (content-based, not filename-based) -- majority vote across non-empty
-    lines. Returns 'toeslagen' or 'margeregels'."""
+    lines. Returns 'toeslagen', 'margeregels', or None when the file does not
+    look like a genuine tab-separated copy-paste export at all (e.g. a plain
+    prose README/LEESMIJ file) -- a stray .txt file in --input-dir must never
+    be silently swept into the toeslagen/margeregels dropdown."""
     field_counts = []
+    tab_lines = 0
     with open(path, encoding="utf-8-sig") as fh:
         for line in fh:
             line = line.rstrip("\r\n")
             if not line.strip():
                 continue
             field_counts.append(len(line.split("\t")))
+            if "\t" in line:
+                tab_lines += 1
     if not field_counts:
-        return "toeslagen"
+        return None
+    if tab_lines / len(field_counts) < 0.5:
+        return None
     avg = sum(field_counts) / len(field_counts)
     # toeslagen lines: name + 1 amount (+ trailing empty) => ~3 fields
     # margeregels lines: name + 2 amounts (+ trailing empty) => ~4 fields
