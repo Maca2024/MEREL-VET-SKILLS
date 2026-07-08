@@ -40,6 +40,7 @@ Dit is AetherLink-tooling in de eigenlijke zin: gebouwd door een swarm van Claud
   - [Installatie & gebruik](#installatie--gebruik-skill-2)
   - [Output-schema](#output-schema-95-kolommen)
 - [Lessons learned — de Covetrus off-by-one bug](#lessons-learned--de-covetrus-off-by-one-bug)
+- [Lessons learned — de LEESMIJ/README-bug in `--input-dir`](#lessons-learned--de-leesmijreadme-bug-in---input-dir)
 - [Integratietest: de echte cijfers](#integratietest-de-echte-cijfers)
 - [Bekende incidenten / transparantie](#bekende-incidenten--transparantie)
 - [Status](#status)
@@ -348,6 +349,18 @@ Tijdens de bouw van Skill 2 bevatte `references/covetrus-mapping.md` een kolomto
 Zodra de echte 17.551-rijen `covetrus-productenlijst.xlsx` beschikbaar kwam op de Kathedraal, is de mapping opnieuw geverifieerd met `python scripts/lookup_covetrus.py --verify-mapping` tegen de volledige asset — dat leverde de gecorrigeerde tabel hierboven op, en is bevestigd met concrete zoekopdrachten (`--barcode 5701170461398` vindt correct "Clavusan 500mg/125mg" bij Alfasan met score 100; `--name "Imaverol"` vindt correct beide verpakkingsgroottes met fuzzy-score 80).
 
 **De les:** een kolomtoewijzingstabel die zichzelf documenteert als "0-indexed" is geen vervanging voor het daadwerkelijk inlezen van een rij uit het echte bestand en het vergelijken van wat er in elke positie staat. Een aanname op 3 illustratieve rijen — hoe plausibel ook — is geen verificatie. Deze fout werd pas zichtbaar op het moment dat de echte asset beschikbaar kwam, wat exact de reden is waarom `SKILL.md` en `README-covetrus-asset.md` allebei expliciet zeggen: **"Laatst geverifieerd: [datum], tegen de volledige asset"** — elke toekomstige versie van het Covetrus-bestand moet opnieuw door `--verify-mapping` heen voordat de mapping vertrouwd wordt. Deze regel geldt structureel voor élke skill die een kolomtoewijzing tegen een extern, door de klant aangeleverd bestand documenteert: schrijf nooit "0-indexed" of "geverifieerd" zonder een echte run tegen het echte bestand.
+
+---
+
+## Lessons learned — de LEESMIJ/README-bug in `--input-dir`
+
+Ontdekt op 8 juli 2026, ná deze README's eerste versie, via een echte smoke test als de `merel`-Linux-user tegen haar eigen echte Animana-testaccount-export (3317 rijen) op de Kathedraal — niet via de geanonimiseerde dev-fixtures, die dit niet blootlegden.
+
+`readers.classify_copy_paste_file()` onderscheidde `toeslagen` van `margeregels` puur op basis van het gemiddeld aantal tab-gescheiden velden per regel, zonder ooit te controleren of een `.txt`-bestand überhaupt op een tab-gescheiden copy-paste-lijst lijkt. Een gewone lopende-tekst-LEESMIJ (`LEESMIJ_v2.txt`, alfabetisch vóór `Voorbeeld copy-paste toeslagen.txt`) viel terug op de default-branch en werd geclassificeerd als `"toeslagen"` — waardoor bij `--input-dir`-gebruik (map-met-alle-exports, geen expliciete `--toeslagen`-vlag) de leesmij-tekst in de `dropdowns`-kolom C terechtkwam in plaats van de echte toeslagwaarden.
+
+**Fix:** een bestand wordt alleen nog als `toeslagen`/`margeregels` geclassificeerd wanneer minstens de helft van de niet-lege regels daadwerkelijk een tab-teken bevat; anders geeft de functie `None` terug en wordt het bestand overgeslagen (net als elke andere onherkende `.txt` in de map). Bevestigd met een herhaalde smoke test: de dropdown bevat nu de 6 echte toeslagwaarden (`Injectie`, `Recept - chronisch`, ...), geen lopende tekst meer. Drie regressietests toegevoegd, waaronder een volledige end-to-end-test met een LEESMIJ-bestand ernaast.
+
+**De les:** de anonieme/steekproef-testfixtures dekten dit niet — ze bevatten geen extra `.txt`-ruis in de inputmap. Een echte, ongeschoonde klantmap (zelfs Merels eigen testaccount, geen echte klant) bevat vrijwel altijd een leesmij, notitie, of ander los tekstbestand naast de daadwerkelijke exports. Elke bestandsclassificatie op inhoud (niet op bestandsnaam) moet daarom altijd een expliciete "dit lijkt er niet op"-uitgang hebben — nooit een stille default naar de eerste/meest voor de hand liggende categorie.
 
 ---
 
