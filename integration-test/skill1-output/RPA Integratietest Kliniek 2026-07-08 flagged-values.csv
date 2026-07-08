@@ -1,0 +1,283 @@
+source_row_number,product_naam,field,raw_value,reason
+2,RC Dog Hepatic 12kg,leverancier,royalcanin,not found in this run's rebuilt leveranciers dropdown list
+3,Clavusan 500mg/125mg tablet,leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+4,CEA (Collie Eye Anomalie) (controleer de mogelijkheid van de test voor het ras),leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+5,"Cardiologie profiel (hond, kat)",leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+6,SM Weight Reduc Cat 4½kg,leverancier,Sanimed,not found in this run's rebuilt leveranciers dropdown list
+7,Hills PD Dog i/d 156g (uit tray 24),leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+8,Hills PD Cat w/d 3kg,leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+9,"Stronghold Roze hond/kat <2,5kg (3 pipetten)",leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+10,FeLV (ag) + FIV (ab) + Hartworm (ag),leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+11,"Purina Cat NF Renal Function EarlyCare 1,5kg",leverancier,Purina,not found in this run's rebuilt leveranciers dropdown list
+12,RC Cat Urinary + Bladder Comfort 4kg,leverancier,royalcanin,not found in this run's rebuilt leveranciers dropdown list
+13,FeLV profiel (PCR + ELISA),leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+14,FeLV (ag) + FIV (ab) + Feline Coronavirus (ab),leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+15,Hills PD Dog ON-Care 1.5kg (uit doos 6),leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+16,Carporal 100mg (100 tabletten),leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+17,FIV (ab) + Feline Coronavirus (ab),leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+18,FeLV (ag) + Feline Coronavirus (ab),leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+19,Stronghold Groen hond 20-40kg pipet (uit doos 6),leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+20,FeLV (ag) + FIV (ab),leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+22,Hills PD Dog d/d 1.5kg (single bag),leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+23,"Coronavirus, equine (RNA)",leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+24,Medical Pet Shirt Hond XXXXS (blauw),leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+25,RC Cat Neutered 3.5kg,leverancier,royalcanin,not found in this run's rebuilt leveranciers dropdown list
+26,Paraathormoon totaal,leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+27,Panacur KH 500mg tablet,leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+28,Hills VE Dog Dental M&L 700g (uit doos 4),leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+29,RC Cat Gastro Intestinal + Hairball 4kg,leverancier,royalcanin,not found in this run's rebuilt leveranciers dropdown list
+30,Hills PD Cat j/d 1.5kg (uit doos 6),leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+31,"Cardisure 1,25mg (10x10 tabletten)",leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+32,Taylorella equigenitalis (CEM),leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+33,"Hills SP Cat Oral 1,5kg (uit doos 6)",leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+34,RC Dog Small Adult Neutered 1.5kg,leverancier,royalcanin,not found in this run's rebuilt leveranciers dropdown list
+35,"Stronghold Blauw kat 2,6-7,5kg pipet (uit doos 6)",leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+36,Hills PD Dog d/d 10kg,leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+37,SNAP Hartworm (uit doos 30),leverancier,idexx_ihd,not found in this run's rebuilt leveranciers dropdown list
+38,"Apoquel 3,6mg (100 tabletten)",leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+39,Credelio Cat 48mg (3 tabletten) (uit doos 18),leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+40,IDEXX Angio Detect Test,leverancier,idexx_ihd,not found in this run's rebuilt leveranciers dropdown list
+41,Hills PD Cat l/d 1.5kg (single bag),leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+42,Nobivac KC vaccinatie,leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+43,Hills VE Dog Large Lamb/Rice 14kg,leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+44,"Cardiopet® proBNP (NT-proBNP) (kat), combinatietest",leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+45,Hills SP Cat Ster Chicken 10kg,leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+46,Purina Cat Fortiflora (30x1g),leverancier,Purina,not found in this run's rebuilt leveranciers dropdown list
+47,"Cardiopet® proBNP (NT-proBNP) (hond), combinatietest",leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+48,SNAP Hartworm,leverancier,idexx_ihd,not found in this run's rebuilt leveranciers dropdown list
+49,Marbocyl FD per ml,leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+50,Hills PD Cat k/d Chicken 3kg (single bag),leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+51,"Numelvi 31,6mg (10 tabletten) (uit doos 90)",leverancier,MSD,not found in this run's rebuilt leveranciers dropdown list
+52,Bloedcultuur flesje,leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+53,Monosyn 22215 3/0 24D3/8 70,leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+54,Babesia vulpes (DNA),leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+55,Hills SP Cat 7+ Chicken 7kg,leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+57,Cystatine C,leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+58,Hills PD Dog Metab 370g (uit tray 12) Beef,leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+59,Stronghold Grijs hond >40gk pipet (uit doos 3),leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+60,Isathal 10mg/ml ooggel 3g,leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+61,"Bravecto injectie hond 4,5-10kg icm jaarlijkse vaccinatie",leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+62,Zymoral pancreas poeder 240g,leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+63,"Amodip 1,25 mg 10 x 10 tabl.",leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+64,Urineanalyse,leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+65,Apoquel CHEW 16mg kauwtablet (uit doos 100),leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+66,RC Dog Senior Urinary S/O 3.5kg,leverancier,royalcanin,not found in this run's rebuilt leveranciers dropdown list
+67,Carbodote Prime 78g,leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+68,Hills PD Dog Derm Compl 1.5kg (uit doos 6),leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+70,Nobivac Lepto 4 / DHP vaccinatie,leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+71,Cortisol,leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+72,IDEXX SARS-CoV-2 (COVID-19) RealPCR™ Test,leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+73,Catalyst LDH Lactaatdehydrogenase,leverancier,idexx_ihd,not found in this run's rebuilt leveranciers dropdown list
+75,Hills VE Dog Dental Small 650g (uit doos 4),leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+76,Hills VE Cat Adult Chicken 1.5kg (single bag),leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+77,Milbeguard kat 4-8kg (doos 48 tabletten),leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+77,Milbeguard kat 4-8kg (doos 48 tabletten),kanalisatie,free,not confidently mappable to udd/uda/ura/vrij -- passed through unchanged
+78,Hills SP Kitten Fish 85g (uit doos 12),leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+79,Amoxibactin 500mg (10 tabletten),leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+80,Furosoral 10mg tablet,leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+81,Hills SP Cat Adult Turkey 85g (uit doos 12),leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+82,Cholinesterase,leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+83,Medical Pet Shirt XS achterpoot,leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+84,Librela 10mg injectie toedienen,leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+85,"Spec fPL® (feline pancreas-specifieke lipase), combinatietest",leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+86,Hills PD Cat c/d Chicken 156g (uit tray 24),leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+87,RC Babydog Milk 2kg,leverancier,royalcanin,not found in this run's rebuilt leveranciers dropdown list
+88,Vetoryl 120mg (3x10 capsules),leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+89,Hills PD Dog k/d+Mob 354g (uit tray 12) Chicken&VgStew,leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+90,Allermyl shampoo 250 ml,leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+90,Allermyl shampoo 250 ml,kanalisatie,free,not confidently mappable to udd/uda/ura/vrij -- passed through unchanged
+91,SM Intest Dog 12½kg,leverancier,Sanimed,not found in this run's rebuilt leveranciers dropdown list
+93,Hills PD Dog i/d 360g (uit tray 12),leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+94,Brucella canis (ab),leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+95,Thrombinetijd,leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+96,Leishmania (ab) (hond),leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+97,"Hills SP Pup Medium Lamb/Rice 2,5kg (uit doos 4)",leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+98,Hills VE Cat Adult Salmon 85g (uit doos 12),leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+99,Stronghold Paars hond <5kg (6 pipetten),leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+100,"Herpesvirus 1, canine (CHV-1) (ab)",leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+102,Hemotrofe Mycoplasmen (hond),leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+103,SNAP Cortisol,leverancier,idexx_ihd,not found in this run's rebuilt leveranciers dropdown list
+104,Hills SP Pup Large Chicken 16kg,leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+105,"Hills SP Dog Hypo Small 1,5kg (uit doos 6)",leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+106,Hills PD Cat z/d 3kg (uit doos 4),leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+107,RC Cat Satiety 6kg,leverancier,royalcanin,not found in this run's rebuilt leveranciers dropdown list
+108,RC Dog Supplement Skin&Coat 240g,leverancier,royalcanin,not found in this run's rebuilt leveranciers dropdown list
+109,Brucella abortus (ab),leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+110,Allergie Test Malassezia IgE (met CCD-inhibitor) (GREER®),leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+111,Hills VE Kitten 1.5kg (uit doos 6),leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+112,Codeinefosfaat 20mg tablet  > batch en dierenarts invullen,leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+112,Codeinefosfaat 20mg tablet  > batch en dierenarts invullen,kanalisatie,ur,not confidently mappable to udd/uda/ura/vrij -- passed through unchanged
+113,Hills PD Dog i/d Low Fat 354g (uit tray 12),leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+114,Geriatrisch profiel compact,leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+115,RC Dog Small Urinary 8kg,leverancier,royalcanin,not found in this run's rebuilt leveranciers dropdown list
+116,RC Dog Giant Junior Gastro Intestinal 3.5kg,leverancier,royalcanin,not found in this run's rebuilt leveranciers dropdown list
+117,Hills VE Cat Mature Adult Chicken 85g (uit doos 12),leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+118,Histologisch onderzoek: Lever – Hepatitis (hond),leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+119,"Hills SP Pup Small Chicken 1,5kg (uit doos 6)",leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+120,Purina Cat NF Renal Function EarlyCare CiG Chicken (10x85g),leverancier,Purina,not found in this run's rebuilt leveranciers dropdown list
+121,Hills SP Cat Adult Lamb 10kg,leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+122,RC Puppy Giant Gastro Intestinal 3.5kg,leverancier,royalcanin,not found in this run's rebuilt leveranciers dropdown list
+123,"Loxicom Oral 0,5mg Kat 5ml",leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+125,Trypanosoma equiperdum (ab),leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+126,"Fecal Dx® antigeen profiel Plus met Cryptosporidium (hond, kat)",leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+127,Differentiatie witte bloedcellen (%) (vogels),leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+128,Hills SP Pup Medium Chicken 14kg,leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+129,Kobalt (leverweefsel),leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+130,Hills PD Dog k/d 1.5kg (single bag),leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+131,Transponder Nano Luxe 1.25x7mm NDG,leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+132,Flixotide inhalator 50mcg (120 dosis),leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+133,CET Chews Dog 5-10kg (141g),leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+134,Hills VE Kitten 3kg (single bag),leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+135,Hills SP Cat Steril doos(12x85g),leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+136,SM Skin Sens Dog 3kg,leverancier,Sanimed,not found in this run's rebuilt leveranciers dropdown list
+137,"Apoquel CHEW 5,4mg kauwtablet (uit doos 100)",leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+139,Feliway Friends starterset 48ml,leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+140,"Bravecto kat SpotOn 6,25-12,5kg pipet",leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+141,Salmonella,leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+142,IDEXX Hydro Clean,leverancier,idexx_ihd,not found in this run's rebuilt leveranciers dropdown list
+146,Novosyn 68235 DS-24 3-0 70cm,leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+147,Twinox 40mg/10mg (10 tabletten),leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+148,RC Dog Gastro Intestinal 7.5 kg,leverancier,royalcanin,not found in this run's rebuilt leveranciers dropdown list
+149,RC Dog Small Gastro Intestinal Low Fat 8kg,leverancier,royalcanin,not found in this run's rebuilt leveranciers dropdown list
+150,Medical Pet Shirt S achterpoot,leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+151,Vetivex 9mg/ml NaCl Infuus 500ml,leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+152,Hills SP Dog Digest Small Chicken/Rice 6kg,leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+153,Transponder Mini Luxe 1.4x8mm NDG,leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+154,Hills PD Dog r/d 350g (uit tray 12),leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+155,Zylkene Plus <10kg 75 mg (30 capsules),leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+156,Catalyst ALKP Alkalische Fosfatase,leverancier,idexx_ihd,not found in this run's rebuilt leveranciers dropdown list
+157,Amoxicilline per ml,leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+158,Purina Dog Fortiflora (30x1g),leverancier,Purina,not found in this run's rebuilt leveranciers dropdown list
+159,Milpro hond > 5kg tablet (uit doos 28),leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+160,"Hyperthermie, canine malignant (genetische predispositie)",leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+161,Baytril 50mg per ml,leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+162,Hills PD Cat k/d Early Stage 85g (uit doos 12),leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+163,RC Dog Gastro Intestinal High Fibre 200g,leverancier,royalcanin,not found in this run's rebuilt leveranciers dropdown list
+164,Ehrlichia canis (ab) (hond),leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+165,Ventolin inhalator-100 (200 doses),leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+166,RC Puppy Maxi 10kg,leverancier,royalcanin,not found in this run's rebuilt leveranciers dropdown list
+167,"Novacam 1,5mg/ml suspensie hond 10ml",leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+168,RC Dog Intensive Care Gastro Intestinal High Energy 3x200ml,leverancier,royalcanin,not found in this run's rebuilt leveranciers dropdown list
+169,Apoquel 16mg tablet (uit doos 100),leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+171,RC Dog Treats Hypoallergenic 230g,leverancier,royalcanin,not found in this run's rebuilt leveranciers dropdown list
+172,T-61 per ml,leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+173,Medical Pet Shirt Konijn XXS,leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+174,RC Puppy Maxi 4kg,leverancier,royalcanin,not found in this run's rebuilt leveranciers dropdown list
+175,"Varkensprofiel, compleet",leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+176,"Hills SP Dog Sens/Stomach/ Skin Small 1,5kg (uit doos 6)",leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+177,Medical Pet Shirt XS voorpoot taz,leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+181,RC Cat Urinary S/O + Hypoallergenic 2kg,leverancier,royalcanin,not found in this run's rebuilt leveranciers dropdown list
+182,"Terra-cortril oogzalf 3,5g",leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+182,"Terra-cortril oogzalf 3,5g",kanalisatie,ur,not confidently mappable to udd/uda/ura/vrij -- passed through unchanged
+183,Babesia spp. (DNA),leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+184,"Optimmune-Canis oogzalf 3,5g",leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+185,Vectra 3D Spot On Dog XL >40kg (3 pipetten),leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+186,"TSH, canine",leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+187,Vetoryl 30mg (3x10 capsules),leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+188,Nobivac Bb vaccinatie,leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+189,PU/PD profiel hond (Polyurie/Polydipsie),leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+190,RC Puppy Hypoallergenic 3.5kg,leverancier,royalcanin,not found in this run's rebuilt leveranciers dropdown list
+191,Hills VE Dog 7+ Senior M&L 2kg (single bag),leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+192,"Glycogen Branching Enzyme Deficiency (GBED, controleer de mogelijkheid van de te",leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+193,SM Skin Sens Dog 12½kg,leverancier,Sanimed,not found in this run's rebuilt leveranciers dropdown list
+194,RC Cat Early Renal 6kg,leverancier,royalcanin,not found in this run's rebuilt leveranciers dropdown list
+195,RC Cat Early Renal 400g,leverancier,royalcanin,not found in this run's rebuilt leveranciers dropdown list
+196,"Braunule Vasofix 22G-0,9mm (blauw)",leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+197,Hills PD Cat Gastro Stress 1.5kg (uit doos 6),leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+198,Hills SP Dog 7+ Small 3kg (uit doos 4),leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+199,Purina Cat UR Urinary CiG Salmon (10x85g),leverancier,Purina,not found in this run's rebuilt leveranciers dropdown list
+200,Hills PD Dog Metab 1.5kg (single bag) Lamb&Rice,leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+201,LDH,leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+203,Tramvetol 50mg tablet,leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+204,Medical Pet Shirt Kat-MPS-7XS (rood),leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+205,Brucella ovis (ab),leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+206,"Paratuberculosis (ab) (rund, schaap, geit)",leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+207,Brucella melitensis (ab),leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+208,Simparica 120 mg (40-60 kg) (3 kauwtabletten),leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+209,Cerenia 16mg (4 tabletten),leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+210,Spec cPL® (canine pancreas-specifieke lipase) (hond),leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+211,"Hills SP Dog Digest Small Chicken/Rice 1,5kg (uit doos 6)",leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+212,CK,leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+213,Uriphex 50mg/ml  30ml,leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+214,"Maximec Orale Paste 18,7mg/g (6,42g)",leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+215,Giardia (ag),leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+216,Lactaat,leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+217,Penrose Drain Steriel Latex 16x400mm 5/8,leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+218,Medical Pet Shirt Hond M+ (zebraprint),leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+219,Carbodote Absornabt Digestif 100ml,leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+220,RC Cat Urinary S/O Moderate Calorie 9kg,leverancier,royalcanin,not found in this run's rebuilt leveranciers dropdown list
+221,Purina Cat UR Urinary Chicken 5kg,leverancier,Purina,not found in this run's rebuilt leveranciers dropdown list
+222,Campylobacter jejuni (DNA),leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+223,"Coronavirus, bovine (ag) (rund)",leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+224,Hills VE Kitten 400g (uit doos 6),leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+225,Hills SP Cat 7+ Fish 85g (uit doos 12),leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+226,Morfine 10mg per ml,leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+227,Ranavirus (DNA) (reptielen),leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+228,Hills PD Dog Derm Compl Pup 1.5kg (single bag),leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+229,Aminozuren in urine (COLA) (dog),leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+230,Cryptococcus neoformans/C. gattii (DNA),leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+231,"Stronghold Plus Oranje kat 2,5-5kg (3 pipetten)",leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+232,Kraag CVET 40cm,leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+233,Babesia felis (DNA),leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+234,RC Babydog Milk 400g,leverancier,royalcanin,not found in this run's rebuilt leveranciers dropdown list
+235,"Cardisure 2,5mg (10x10 tabletten)",leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+236,Medical Pet Shirt TAZ2 Double XS,leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+237,Catalyst Chem 10 CLIP,leverancier,idexx_ihd,not found in this run's rebuilt leveranciers dropdown list
+238,"Numelvi 4,8mg (10 tabletten) (uit doos 90)",leverancier,MSD,not found in this run's rebuilt leveranciers dropdown list
+239,Stronghold Rood hond 10-20kg (3 pipetten),leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+240,"Petflex Farm 4,5mx5cm (uit doos 36)",leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+241,Elektrolyten en mineralen profiel,leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+242,"Adenovirus 2, canine (DNA)",leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+243,VetStat Standaard Referentiecassette 3,leverancier,idexx_ihd,not found in this run's rebuilt leveranciers dropdown list
+244,Vogelprofiel 4,leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+245,Vogelprofiel 3,leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+246,"Numelvi 21,6mg (90 tabletten)",leverancier,MSD,not found in this run's rebuilt leveranciers dropdown list
+247,Vogelprofiel 2,leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+248,Vogelprofiel 1,leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+249,CET Tandpasta hond 70g,leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+250,SNAP Lepto,leverancier,idexx_ihd,not found in this run's rebuilt leveranciers dropdown list
+252,Hills SP Dog Small Chicken 6kg,leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+253,Medical Pet Shirt Kat XXXS (rood),leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+254,SM Struvite Dog 12½kg,leverancier,Sanimed,not found in this run's rebuilt leveranciers dropdown list
+255,Amoxibactin per ml,leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+256,Urinesediment,leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+257,Hills PD Cat Gastro Stress 1.5kg (single bag),leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+258,Medical Pet Shirt Hond XS (blauw),leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+259,Hills SP Dog Large Lamb/Rice 14kg,leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+260,"Novacam 0,5mg/ml suspensie kat 10ml",leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+261,Screening op sedativa/tranquilizers,leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+262,Leverprofiel 1,leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+263,Taylorella asinigenitalis (DNA) (ezel),leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+264,"IDEXX Cystatin B, combinatietest",leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+265,Librela 5mg injectie toedienen,leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+267,Lood,leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+268,Babesia canis (ab) (hond),leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+269,VetStat Geoniseerd Calcium,leverancier,idexx_ihd,not found in this run's rebuilt leveranciers dropdown list
+270,Feliway Optimum navulling 48ml,leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+271,Babesia spp. (DNA) (paard: zie Babesia profiel),leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+272,"Lavender Foal Syndrome (LFS, controleer de mogelijkheid van de test voor het ras",leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+273,Milpro kat meegeefdoosje,leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+274,Medical Pet Shirt TAZ2 Double XXXS,leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+275,Koper (haren),leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+276,Koper (leverweefsel),leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+277,RC Dog Hypoallergenic 7kg,leverancier,royalcanin,not found in this run's rebuilt leveranciers dropdown list
+278,Metrobactin 250mg tablet,leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+280,Glycogeenstapelingsziekte type 4 (controleer de mogelijkheid voor het ras),leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+282,T4 vrije/cholesterol ratio,leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+283,Dysbiose Index microbioom kat,leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+284,Hills PD Cat Gastro Stress 82g (uit tray 24),leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+285,Medical Pet Shirt Display Hond,leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+286,Bravecto injectie hond 10-20kg icm jaarlijkse vaccinatie,leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+287,"Borrelia (ab) (hond, paard) (confirmatietest voor positieve of borderline ELISA",leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+288,Credelio Cat blisterzakje,leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+289,Reisziekte profiel kat,leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+290,Hills PD Cat a/d 200g (uit tray 12),leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+291,Hills PD Dog k/d 156g (uit tray 24),leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+293,Hills PD Dog Derm Compl Pup 1.5kg (uit doos 6),leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+294,RC Cat Renal Select 2kg,leverancier,royalcanin,not found in this run's rebuilt leveranciers dropdown list
+295,Monosyn Undyed 3/0 (2) 70cm HR22 (M) DDP,leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+296,Purina Cat EN Gastrointestinal Mousse 195g,leverancier,Purina,not found in this run's rebuilt leveranciers dropdown list
+298,"Petflex No Chew 5cmx4,5m",leverancier,auvnl,not found in this run's rebuilt leveranciers dropdown list
+299,Reisziekte profiel 1 (vroeg),leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list
+300,Hills SP Cat Adult Tuna 3kg (uit doos 4),leverancier,Hill's Pet Nutricion,not found in this run's rebuilt leveranciers dropdown list
+301,Reisziekte profiel 3 (acuut),leverancier,idexx_reference_lab,not found in this run's rebuilt leveranciers dropdown list

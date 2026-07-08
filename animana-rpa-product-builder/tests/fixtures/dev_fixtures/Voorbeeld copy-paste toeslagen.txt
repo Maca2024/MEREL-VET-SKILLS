@@ -1,0 +1,6 @@
+Injectie	€ 12,00	
+Recept - chronisch	€ 3,00	
+Recept - hele verpakking	€ 3,50	
+Recept - uitponden	€ 7,50	
+Verwerkingskosten - hoog	€ 25,00	
+Verwerkingskosten - laag	€ 0,00	

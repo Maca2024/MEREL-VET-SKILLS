@@ -1,0 +1,67 @@
+C:\Users\info\AppData\Local\Programs\Python\Python312\Lib\site-packages\openpyxl\styles\stylesheet.py:237: UserWarning: Workbook contains no default style, apply openpyxl's default
+  warn("Workbook contains no default style, apply openpyxl's default")
+RPA Products build report -- account: RerunTwo
+DATUM: 2026-07-08 (no date pattern found in filename 'export_product_dev' -- fell back to file last-modified date)
+
+Source files used:
+  - product export: ..\tests\fixtures\dev_fixtures\export_product_dev.csv
+  - productgroups export: ..\tests\fixtures\dev_fixtures\productgroups.xlsx
+  - contacts export (suppliers): ..\tests\fixtures\dev_fixtures\export_client_dev.csv
+  - letters export: ..\tests\fixtures\dev_fixtures\export.xlsx
+  - toeslagen copy-paste: ..\tests\fixtures\dev_fixtures\Voorbeeld copy-paste toeslagen.txt
+  - margeregels copy-paste: ..\tests\fixtures\dev_fixtures\Voorbeeld copy-paste margeregels.txt
+  - template: C:\Users\info\AppData\Local\Temp\claude\C--Users-info\ed8352c0-1d29-46cc-ac8a-be1c0302bdf5\scratchpad\MEREL-VET-SKILLS-staging\animana-rpa-product-builder\assets\RPA_Products_template.xlsx
+
+Rows read from product export: 299
+Rows written to 'compleet' file: 299  [MATCH]
+Rows kept in 'actief' file:     224
+
+Malformed/unparseable source rows skipped (2):
+  - source row 74: expected 38 columns, got 39
+  - source row 180: expected 38 columns, got 39
+
+Account-bound dropdown columns rebuilt:
+  - A (productgroepen): 67 values
+  - C (toeslagen): 6 values
+  - E (margeregels): 19 values
+  - M (leveranciers): 9 values
+  - Y (brieven): 164 values
+
+Fixed dropdown columns (G/I/K/O/Q/AA/AC): confirmed byte-identical to template.
+
+Unresolved/invalid values flagged for manual review (282):
+  - row 2 'RC Dog Hepatic 12kg': leverancier='royalcanin' -- not found in this run's rebuilt leveranciers dropdown list
+  - row 3 'Clavusan 500mg/125mg tablet': leverancier='auvnl' -- not found in this run's rebuilt leveranciers dropdown list
+  - row 4 'CEA (Collie Eye Anomalie) (controleer de mogelijkheid van de test voor het ras)': leverancier='idexx_reference_lab' -- not found in this run's rebuilt leveranciers dropdown list
+  - row 5 'Cardiologie profiel (hond, kat)': leverancier='idexx_reference_lab' -- not found in this run's rebuilt leveranciers dropdown list
+  - row 6 'SM Weight Reduc Cat 4½kg': leverancier='Sanimed' -- not found in this run's rebuilt leveranciers dropdown list
+  - row 7 'Hills PD Dog i/d 156g (uit tray 24)': leverancier='Hill's Pet Nutricion' -- not found in this run's rebuilt leveranciers dropdown list
+  - row 8 'Hills PD Cat w/d 3kg': leverancier='Hill's Pet Nutricion' -- not found in this run's rebuilt leveranciers dropdown list
+  - row 9 'Stronghold Roze hond/kat <2,5kg (3 pipetten)': leverancier='auvnl' -- not found in this run's rebuilt leveranciers dropdown list
+  - row 10 'FeLV (ag) + FIV (ab) + Hartworm (ag)': leverancier='idexx_reference_lab' -- not found in this run's rebuilt leveranciers dropdown list
+  - row 11 'Purina Cat NF Renal Function EarlyCare 1,5kg': leverancier='Purina' -- not found in this run's rebuilt leveranciers dropdown list
+  - row 12 'RC Cat Urinary + Bladder Comfort 4kg': leverancier='royalcanin' -- not found in this run's rebuilt leveranciers dropdown list
+  - row 13 'FeLV profiel (PCR + ELISA)': leverancier='idexx_reference_lab' -- not found in this run's rebuilt leveranciers dropdown list
+  - row 14 'FeLV (ag) + FIV (ab) + Feline Coronavirus (ab)': leverancier='idexx_reference_lab' -- not found in this run's rebuilt leveranciers dropdown list
+  - row 15 'Hills PD Dog ON-Care 1.5kg (uit doos 6)': leverancier='Hill's Pet Nutricion' -- not found in this run's rebuilt leveranciers dropdown list
+  - row 16 'Carporal 100mg (100 tabletten)': leverancier='auvnl' -- not found in this run's rebuilt leveranciers dropdown list
+  - row 17 'FIV (ab) + Feline Coronavirus (ab)': leverancier='idexx_reference_lab' -- not found in this run's rebuilt leveranciers dropdown list
+  - row 18 'FeLV (ag) + Feline Coronavirus (ab)': leverancier='idexx_reference_lab' -- not found in this run's rebuilt leveranciers dropdown list
+  - row 19 'Stronghold Groen hond 20-40kg pipet (uit doos 6)': leverancier='auvnl' -- not found in this run's rebuilt leveranciers dropdown list
+  - row 20 'FeLV (ag) + FIV (ab)': leverancier='idexx_reference_lab' -- not found in this run's rebuilt leveranciers dropdown list
+  - row 22 'Hills PD Dog d/d 1.5kg (single bag)': leverancier='Hill's Pet Nutricion' -- not found in this run's rebuilt leveranciers dropdown list
+  - row 23 'Coronavirus, equine (RNA)': leverancier='idexx_reference_lab' -- not found in this run's rebuilt leveranciers dropdown list
+  - row 24 'Medical Pet Shirt Hond XXXXS (blauw)': leverancier='auvnl' -- not found in this run's rebuilt leveranciers dropdown list
+  - row 25 'RC Cat Neutered 3.5kg': leverancier='royalcanin' -- not found in this run's rebuilt leveranciers dropdown list
+  - row 26 'Paraathormoon totaal': leverancier='idexx_reference_lab' -- not found in this run's rebuilt leveranciers dropdown list
+  - row 27 'Panacur KH 500mg tablet': leverancier='auvnl' -- not found in this run's rebuilt leveranciers dropdown list
+  - row 28 'Hills VE Dog Dental M&L 700g (uit doos 4)': leverancier='Hill's Pet Nutricion' -- not found in this run's rebuilt leveranciers dropdown list
+  - row 29 'RC Cat Gastro Intestinal + Hairball 4kg': leverancier='royalcanin' -- not found in this run's rebuilt leveranciers dropdown list
+  - row 30 'Hills PD Cat j/d 1.5kg (uit doos 6)': leverancier='Hill's Pet Nutricion' -- not found in this run's rebuilt leveranciers dropdown list
+  - row 31 'Cardisure 1,25mg (10x10 tabletten)': leverancier='auvnl' -- not found in this run's rebuilt leveranciers dropdown list
+  - row 32 'Taylorella equigenitalis (CEM)': leverancier='idexx_reference_lab' -- not found in this run's rebuilt leveranciers dropdown list
+  ... and 252 more (see companion CSV)
+
+Output files:
+  - ..\..\integration-test\rerun-verify2\RPA RerunTwo 2026-07-08 V1 compleet.xlsx
+  - ..\..\integration-test\rerun-verify2\RPA RerunTwo 2026-07-08 V1 actief.xlsx

@@ -1,0 +1,215 @@
+clientId,datum,code,titel,bedrijfsnaam,voornaam,tussenvoegsel,achternaam,e-mail,website,btw-nummer,opmerkingen,waarschuwing,afstand,is client van,rekeningnummer,tenaamstelling,pricegroupid,geboortedatum,grootboeknummers,taal,klant geworden via,categorie,automatische incasso,maandrekening,wanbetaler,betalingsregeling,client,verwijzend dierenarts,hoefsmid,leverancier,anders,geen mailing,actief
+smartvetagency-1444406776417790067,09-06-2025,,,Synthetic Supplier 0,,,,test0@example-dev.invalid,,0,"Buitenlands adres en btw-nummer
+Door een land anders dan het land in te vullen waarin de praktijk is gevestigd en het veld “btw-nummer” in te vullen, treedt een functie voor het verleggen van de btw in werking. Hiermee wordt bij deze cliënt alle producten die verkocht worden automatisch het btw 0% tarief toegevoegd in plaats van het btw tarief dat in de productendatabase aan het product is gekoppeld. De facturen aan deze cliënt zullen in het Btw Overzicht onder de knop ICP Verkoop Details zichtbaar worden.
+
+Blokkeer facturering
+Door bij deze ‘cliënt’ de optie “Blokkeer Facturering” aan te zetten voorkomen we dat er via de Maandrekeningen per ongeluk een factuur wordt gemaakt van de ingevoerde producten bij deze ‘cliënt’. Dit is immers geen omzet.
+
+Wanneer je de gefactureerde producten van deze van deze ‘cliënt’ niet wenst te zien in de omzetcijfers, dient er periodiek een creditfactuur te worden gemaakt. Omdat de voorraad niet te beïnvloeden, gebruik je voor de creditfactuur het product 'Tegenboeking voorraadcorrectie'. Dit is conform het advies van Animana helpdesk, zij kunnen helpen wanneer je er niet uitkomt.","Dit contact wordt voor correcties gebruikt, niet wijzigen.",0.0,,,,,,,,,,,,,,true,,,true,,,true
+smartvetagency-5795263916481652279,09-06-2025,,Dhr.,Synthetic Supplier 1,Test,,Persoon1,test1@example-dev.invalid,,,,,0.0,,,,,,3999,,,,,,,,true,,,true,,,true
+startaccount-2016841792686538036,07-03-2018,,,Synthetic Supplier 2,,,,,,,,Let op! Naam niet wijzigen ivm voorraadbeheer. NL Pharma,0.0,,,,,,,,,,,,,,,,,true,,,true
+startaccount-3107103637414946931,25-01-2018,,,Synthetic Supplier 3,,,,,,,,Let op! Naam niet wijzigen ivm voorraadbeheer. IDEXX Referentie Lab,0.0,,,,,,4040,,,,,,,,,,,true,,,true
+startaccount-4435479531742265748,16-05-2017,,,Synthetic Company 4,,,Persoon4,,,,,,0.0,,,,,,,,,,,,,,true,,,,,,true
+startaccount-4688931161071394662,26-02-2021,,,Synthetic Supplier 5,,,,,,,,Let op! Naam niet wijzigen ivm voorraadbeheer. Dechra / AST FARMA,0.0,,,,,,"4000,4005,4110",,,,,,,,,,,true,,,true
+startaccount-505095739760253839,02-02-2021,,,Synthetic Company 6,,,,,,,,,0.0,,,,,,,,,,,,,,true,,,,,,true
+startaccount-780558605237469310,12-08-2016,,,Synthetic Supplier 7,,,,test7@example-dev.invalid,www.animana.nl,,,,0.0,,,,,,"0600,4330",,,,false,false,false,false,,false,false,true,false,false,true
+startaccount-978414586142122205,25-01-2018,,,Synthetic Supplier 8,,,,,,,,Let op! Naam niet wijzigen ivm voorraadbeheer. IDEXX In-Huis Diagnostiek,0.0,,,,,,4040,,,,,,,,,,,true,,,true
+zaanse-9105920434487956443,11-08-2025,,,Synthetic Supplier 9,,,,,,,,,0.0,,,,,,,,,,false,false,false,false,false,false,false,true,false,false,true
+zaanse-4177683704462651847,03-09-2025,,,Synthetic Company 10,,,,test10@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-2961534962993075091,03-09-2025,,,Synthetic Supplier 11,,,,test11@example-dev.invalid,richard.baeke@vetfamily.nl,,,,0.0,,,,,,4100,,,,,,,,true,,,true,,,true
+zaanse-6816103321903301717,09-09-2025,,Dhr.,Synthetic Company 12,,,Persoon12,test12@example-dev.invalid,,,NL82 RABO 0109666585,UBN praktijk: 8556068,0.0,,,,,,,,,,,,,,true,true,,,,,true
+zaanse-5379920472628191017,14-09-2025,,Mevr.,,Test,,Persoon13,test13@example-dev.invalid,,,,VP? 23/2/26,0.0,,,,,,,,,,,,,,true,,,,,,true
+zaanse-8214416532375001439,15-09-2025,,Mevr.,,Test,,Persoon14,test14@example-dev.invalid,,,,VP+2/2/26,0.0,,,,,,,,,,,,,,true,,,,,,true
+zaanse-2108890122077566968,15-09-2025,,Dhr.,,Test,,Persoon15,test15@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-443393289423948151,15-09-2025,,Mevr.,,Test,de,Persoon16,test16@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-5940308517463829483,15-09-2025,,Mevr.,,Test,van,Persoon17,test17@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-7084554703064548881,15-09-2025,,Mevr.,,Test,,Persoon18,test18@example-dev.invalid,,,,VP? 30/4/26,0.0,,,,,,,,,,,,,,true,,,,,,true
+zaanse-4462863236049177988,15-09-2025,,Dhr.,,Test,van,Persoon19,test19@example-dev.invalid,,,,VP? 03/02/2026,0.0,,,,,,,,,,,,,,true,,,,,,true
+zaanse-6941890161504414750,15-09-2025,,Mevr.,,Test,van der,Persoon20,test20@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-4853472985155635805,15-09-2025,,Mevr.,,Test,,Persoon21,test21@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-8518724458381755586,15-09-2025,,Mevr.,,Test,,Persoon22,test22@example-dev.invalid,,,Herry Vlaskamp = partner,,0.0,,,,,,,,,,,,,,true,,,,,,true
+zaanse-6256666412206192874,15-09-2025,,Dhr.,,Test,,Persoon23,test23@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-2966382164340961965,15-09-2025,,Dhr.,,Test,van,Persoon24,test24@example-dev.invalid,,,,,0.0,,,,,,,,,,,,,,true,,,,,,true
+zaanse-1702525189294311163,15-09-2025,,Mevr.,,Test,,Persoon25,test25@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-1380287656916143955,15-09-2025,,Mevr.,,Test,,Persoon26,test26@example-dev.invalid,,,,VP -,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-3109828003343163279,15-09-2025,,Mevr.,,Test,,Persoon27,test27@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-8452460661029499742,15-09-2025,,Mevr.,,Test,,Persoon28,test28@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-5372409853051860202,15-09-2025,,Mevr.,,Test,,Persoon29,test29@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-4063794304217644394,15-09-2025,,Mevr.,,Test,de,Persoon30,test30@example-dev.invalid,,,,,0.0,,,,,,,,,,,,,,true,,,,,,true
+zaanse-2755636422049382202,15-09-2025,,Mevr.,,Test,,Persoon31,test31@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-697352013044527840,15-09-2025,,Dhr.,,Test,de,Persoon32,test32@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-395150562775152721,15-09-2025,,Mevr.,,Test,,Persoon33,test33@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-8714257519675948324,15-09-2025,,Mevr.,,Test,,Persoon34,test34@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-8131991373045962566,15-09-2025,,Mevr.,,Test,,Persoon35,test35@example-dev.invalid,,,,VP? 20/3/26,0.0,,,,,,,,,,,,,,true,,,,,,true
+zaanse-1033526378928445285,15-09-2025,,Mevr.,,Test,,Persoon36,test36@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-4617023856918034541,15-09-2025,,Mevr.,,Test,,Persoon37,test37@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-3881374247439996391,15-09-2025,,Mevr.,,Test,,Persoon38,test38@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-6500738585719436758,15-09-2025,,Mevr.,,Test,,Persoon39,test39@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-8293670836202068399,15-09-2025,,Mevr.,,Test,,Persoon40,test40@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-3775372834712299975,15-09-2025,,Mevr.,,Test,van,Persoon41,test41@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-2842423181965033263,15-09-2025,,Mevr.,,Test,de,Persoon42,test42@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-5959354367733000495,15-09-2025,,Mevr.,,Test,van,Persoon43,test43@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-978356299324280085,15-09-2025,,Mevr.,,Test,,Persoon44,test44@example-dev.invalid,,,,Heeft nest pups (15/9/2025) > nestkorting besproken van 25%,0.0,,,,,,,,,,,,,,true,,,,,,true
+zaanse-5064187386389526449,15-09-2025,,Mevr.,,Test,de,Persoon45,test45@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-918292455682995966,15-09-2025,,Mevr.,,Test,,Persoon46,test46@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-8125062772696459467,15-09-2025,,Mevr.,,Test,,Persoon47,test47@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-3093932682755940571,15-09-2025,,Mevr.,,Test,,Persoon48,test48@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-1711955185040906334,15-09-2025,,Dhr.,,Test,,Persoon49,test49@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-2980173940981429325,15-09-2025,,Mevr.,,Test,,Persoon50,test50@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-3483784961494451522,15-09-2025,,Mevr.,,Test,,Persoon51,test51@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-533894364148530285,15-09-2025,,Mevr.,,Test,,Persoon52,test52@example-dev.invalid,,,,VP+ 18/3/26,0.0,,,,,,,,,,,,,,true,,,,,,true
+zaanse-6274239683591184510,15-09-2025,,Dhr.,,Test,,Persoon53,test53@example-dev.invalid,,,,VP - is al verzekerd DK,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-5560428482120496500,15-09-2025,,Mevr.,,Test,,Persoon54,test54@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-6238954355547552551,16-09-2025,,Mevr.,,Test,,Persoon55,test55@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-2409513951863259963,16-09-2025,,Mevr.,,Test,,Persoon56,test56@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-6148804814365361130,16-09-2025,,Mevr.,,Test,,Persoon57,test57@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-6913800108264225780,16-09-2025,,Dhr.,,Test,van den,Persoon58,test58@example-dev.invalid,,,,,0.0,,,,,,,,,,,,,,true,,,,,,true
+zaanse-212966685052017697,16-09-2025,,Mevr.,,Test,,Persoon59,test59@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-4938444699046567409,16-09-2025,,Dhr.,,Test,,Persoon60,test60@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-4111880731806099917,16-09-2025,,Mevr.,,Test,,Persoon61,test61@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-8409982293108031712,16-09-2025,,Mevr.,,Test,,Persoon62,test62@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-1804627567308852590,16-09-2025,,Dhr.,,Test,van de,Persoon63,test63@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-8567751701794734018,16-09-2025,,Dhr.,,Test,,Persoon64,test64@example-dev.invalid,,,,,0.0,,,,,,,,,,,,,,true,,,,,,true
+zaanse-1009170898166480147,16-09-2025,,Mevr.,,Test,,Persoon65,test65@example-dev.invalid,,,,,0.0,,,,,,,,,,,,,,true,,,,,,true
+zaanse-7515223592242659487,16-09-2025,,Dhr.,,Test,,Persoon66,test66@example-dev.invalid,,,"UDN: 1100217
+BIG: 661428",,0.0,,,,,,,,,,,,,,true,,,,,,true
+zaanse-3202485297765556969,16-09-2025,,Mevr.,,Test,,Persoon67,test67@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-7763372791672618384,16-09-2025,,Mevr.,,Test,van de,Persoon68,test68@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-4381097683731619423,16-09-2025,,Dhr.,,Test,,Persoon69,test69@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-7059710175499867698,16-09-2025,,Dhr.,,Test,de,Persoon70,test70@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-849533015880894276,16-09-2025,,Mevr.,,Test,,Persoon71,test71@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-226822680131821154,16-09-2025,,Dhr.,,Test,,Persoon72,test72@example-dev.invalid,,,,,0.0,,,,,,,,,,,,,,true,,,,,,true
+zaanse-948384022118594233,16-09-2025,,Dhr.,,Test,,Persoon73,test73@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-2078217152628101047,16-09-2025,,Mevr.,,Test,van,Persoon74,test74@example-dev.invalid,,,Heel actief op Facebook (positief over de praktijk!),,0.0,,,,,,,,,,,,,,true,,,,,,true
+zaanse-5259348583590062965,16-09-2025,,Mevr.,,Test,,Persoon75,test75@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-7791624186423568308,16-09-2025,,Mevr.,,Test,,Persoon76,test76@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-3627725675528467607,16-09-2025,,Mevr.,,Test,,Persoon77,test77@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-8711346809531395925,16-09-2025,,Mevr.,,Test,van,Persoon78,test78@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-4737530758077944232,16-09-2025,,Mevr.,,Test,,Persoon79,test79@example-dev.invalid,,,,VP ?,0.0,,,,,,,,,,,,,,true,,,,,,true
+zaanse-7536035300643987215,16-09-2025,,Dhr.,,Test,,Persoon80,test80@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-4725446131311895875,16-09-2025,,Mevr.,,Test,,Persoon81,test81@example-dev.invalid,,,,VP -,0.0,,,,,,,,,,,,,,true,,,,,,true
+zaanse-7026730944090411889,16-09-2025,,Dhr.,,Test,,Persoon82,test82@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-220473855985682781,16-09-2025,,Mevr.,,Test,,Persoon83,test83@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-9077167572279766979,16-09-2025,,Mevr.,,Test,,Persoon84,test84@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-5590178891977397943,16-09-2025,,Mevr.,,Test,,Persoon85,test85@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-7676133051060840827,16-09-2025,,Mevr.,,Test,,Persoon86,test86@example-dev.invalid,,,"Decharge
+Postbus 132
+1520 AC Wormerveer
+info@decharge.nl
+Telefoonnummer Inna Coert - Zas: 075 – 670 44 17
+Telefoonnummer Jana van Asperen: 075 – 616 59 00
+Telefoonnummer Algemeen: 075 – 670 70 00
+Bereikbaar maandag t/m donderdag van 10.00 uur tot 16.00 uur",bewind,0.0,,,,,,,,,,,,,,true,,,,,,true
+zaanse-8779440946662162709,16-09-2025,,Mevr.,,Test,de,Persoon87,test87@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-7768046346103546148,16-09-2025,,Mevr.,,Test,,Persoon88,test88@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-5662097050994450774,16-09-2025,,Dhr.,,Test,,Persoon89,test89@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-888762076510460493,16-09-2025,,Mevr.,,Test,,Persoon90,test90@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-7915013851374439160,16-09-2025,,Mevr.,,Test,,Persoon91,test91@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-1556857837108250380,16-09-2025,,Mevr.,,Test,,Persoon92,test92@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-7994990190065250118,16-09-2025,,Mevr.,,Test,de,Persoon93,test93@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-8587907013675354896,16-09-2025,,Mevr.,,Test,,Persoon94,test94@example-dev.invalid,,,,,0.0,,,,,,,,,,,,,,true,,,,,,true
+zaanse-338093520508807873,16-09-2025,,Mevr.,,Test,van,Persoon95,test95@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-7787466438904901193,16-09-2025,,Mevr.,,Test,,Persoon96,test96@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-3347063900007563983,16-09-2025,,Dhr.,,Test,,Persoon97,test97@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-7032071947792178104,16-09-2025,,Dhr.,,Test,van den,Persoon98,test98@example-dev.invalid,,,,Bewind,0.0,,,,,,,,,,,,,,true,,,,,,true
+zaanse-1869552928756124596,16-09-2025,,Mevr.,,Test,,Persoon99,test99@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-3825182590491101191,16-09-2025,,Dhr.,,Test,de,Persoon100,test100@example-dev.invalid,,,,VP? 2/4/26,0.0,,,,,,,,,,,,,,true,,,,,,true
+zaanse-8036559267558359445,16-09-2025,,Mevr.,,Test,,Persoon101,test101@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-5055389771764027792,16-09-2025,,Dhr.,,Test,,Persoon102,test102@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-4648546200365049102,16-09-2025,,Dhr.,Synthetic Company 103,Test,,Persoon103,test103@example-dev.invalid,,,,,0.0,,,,,,,,,,,,,,true,,,,,,true
+zaanse-8442179985539892996,16-09-2025,,Mevr.,,Test,,Persoon104,test104@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-8783498950872734880,16-09-2025,,Dhr.,,Test,van,Persoon105,test105@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-4226894704125267410,16-09-2025,,Mevr.,,Test,,Persoon106,test106@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-7479804828884597135,16-09-2025,,Mevr.,,Test,van,Persoon107,test107@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-6662587316647248721,16-09-2025,,Mevr.,,Test,,Persoon108,test108@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-4476714110708819789,16-09-2025,,Mevr.,,Test,,Persoon109,test109@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-7772382279860053256,16-09-2025,,Mevr.,,Test,,Persoon110,test110@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-634140273691962242,16-09-2025,,Mevr.,,Test,ter,Persoon111,test111@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-1473323751280326913,16-09-2025,,Dhr.,,Test,,Persoon112,test112@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-9179948667809153117,16-09-2025,,Mevr.,,Test,,Persoon113,test113@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-12854751736721129,16-09-2025,,Mevr.,,Test,,Persoon114,test114@example-dev.invalid,,,,VP? 2/10/25,0.0,,,,,,,,,,,,,,true,,,,,,true
+zaanse-688115460064582106,16-09-2025,,Mevr.,,Test,van,Persoon115,test115@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-5333382228354741212,16-09-2025,,Mevr.,,Test,,Persoon116,test116@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-2358358490314731154,16-09-2025,,Mevr.,,Test,,Persoon117,test117@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-1046790187055983110,16-09-2025,,Dhr.,,Test,,Persoon118,test118@example-dev.invalid,,,,,0.0,,,,,,,,,,,,,,true,,,,,,true
+zaanse-5606614943316174232,16-09-2025,,Mevr.,,Test,,Persoon119,test119@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-3821254323720094456,16-09-2025,,Mevr.,,Test,,Persoon120,test120@example-dev.invalid,,,,JT,0.0,,,,,,,,,,,,,,true,,,,,,true
+zaanse-8317567780942023036,16-09-2025,,Mevr.,,Test,van,Persoon121,test121@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-9221225543353718699,16-09-2025,,Mevr.,,Test,,Persoon122,test122@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-8737226905603707214,16-09-2025,,Dhr.,,Test,van,Persoon123,test123@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-1632928630175206609,17-09-2025,,Mevr.,,Test,,Persoon124,test124@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-8671672389132298681,17-09-2025,,Mevr.,,Test,,Persoon125,test125@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-4467319317626347878,17-09-2025,,Dhr.,,Test,,Persoon126,test126@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-1356941452081063733,17-09-2025,,Mevr.,,Test,de,Persoon127,test127@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-9198915362634900167,17-09-2025,,Mevr.,,Test,van der,Persoon128,test128@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-5036767074081691384,17-09-2025,,Mevr.,,Test,,Persoon129,test129@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-2550048388296110606,17-09-2025,,Mevr.,,Test,,Persoon130,test130@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-1376920692944671631,17-09-2025,,Mevr.,,Test,,Persoon131,test131@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-359941953393459838,17-09-2025,,Mevr.,,Test,,Persoon132,test132@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-6956928528563984258,17-09-2025,,Mevr.,,Test,,Persoon133,test133@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-7054602792850931024,17-09-2025,,Mevr.,,Test,,Persoon134,test134@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-1270141317947728052,17-09-2025,,Mevr.,,Test,,Persoon135,test135@example-dev.invalid,,,,,0.0,,,,,,,,,,,,,,true,,,,,,true
+zaanse-8444034540594835844,17-09-2025,,Mevr.,,Test,,Persoon136,test136@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-1222675994730456693,17-09-2025,,Mevr.,,Test,van de,Persoon137,test137@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-3307378440882248658,17-09-2025,,Mevr.,,Test,,Persoon138,test138@example-dev.invalid,,,,,0.0,,,,,,,,,,,,,,true,,,,,,true
+zaanse-267436404905348241,17-09-2025,,Mevr.,,Test,ter,Persoon139,test139@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-4583979200702920471,17-09-2025,,Mevr.,,Test,van der,Persoon140,test140@example-dev.invalid,,,,"Vraagt UBN aan, belt dan, wij chip registreren! (WSM 1/10/25)",0.0,,,,,,,,,,,,,,true,,,,,,true
+zaanse-8460890597774106484,17-09-2025,,Mevr.,,Test,,Persoon141,test141@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-6587994494897171511,17-09-2025,,Mevr.,,Test,,Persoon142,test142@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-569907890722265146,17-09-2025,,Dhr.,,Test,,Persoon143,test143@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-2560829281656432387,17-09-2025,,Mevr.,,Test,van,Persoon144,test144@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-7908078694962902628,17-09-2025,,Mevr.,,Test,,Persoon145,test145@example-dev.invalid,,,,VP? 26/2/26,0.0,,,,,,,,,,,,,,true,,,,,,true
+zaanse-3089322599655000637,17-09-2025,,Mevr.,,Test,,Persoon146,test146@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-3433894551482251509,17-09-2025,,Dhr.,,Test,van,Persoon147,test147@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-6532596676598156134,17-09-2025,,Mevr.,,Test,,Persoon148,test148@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-1028557386622540833,17-09-2025,,Dhr.,,Test,van der,Persoon149,test149@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-3141621029396586262,17-09-2025,,Mevr.,,Test,,Persoon150,test150@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-8351450039133853754,17-09-2025,,Dhr.,,Test,,Persoon151,test151@example-dev.invalid,,,,VP?,0.0,,,,,,,,,,,,,,true,,,,,,true
+zaanse-7730612304290290983,17-09-2025,,Mevr.,,Test,,Persoon152,test152@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-2293318198912318529,17-09-2025,,Dhr.,,Test,,Persoon153,test153@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-114080451525955100,17-09-2025,,Dhr.,,Test,,Persoon154,test154@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-1663915363628453244,17-09-2025,,Mevr.,,Test,,Persoon155,test155@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-3733283623658590739,17-09-2025,,Mevr.,,Test,,Persoon156,test156@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-2772235970692260114,17-09-2025,,Mevr.,,Test,,Persoon157,test157@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-8202449879847917142,17-09-2025,,Mevr.,,Test,,Persoon158,test158@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-8392259003605242624,17-09-2025,,Mevr.,,Test,,Persoon159,test159@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-6914622226358019377,17-09-2025,,Mevr.,,Test,,Persoon160,test160@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-2985532918527077071,17-09-2025,,Dhr.,,Test,,Persoon161,test161@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-7445532584713043718,17-09-2025,,Mevr.,,Test,,Persoon162,test162@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-3601848766151594414,17-09-2025,,Mevr.,,Test,,Persoon163,test163@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-2967858170448619622,17-09-2025,,Mevr.,,Test,,Persoon164,test164@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-5645005776034412421,17-09-2025,,Mevr.,,Test,,Persoon165,test165@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-935015006237268271,17-09-2025,,Mevr.,,Test,,Persoon166,test166@example-dev.invalid,,,,,0.0,,,,,,,,,,,,,,true,,,,,,true
+zaanse-4269332388410196904,17-09-2025,,Mevr.,,Test,,Persoon167,test167@example-dev.invalid,,,,,0.0,,,,,,,,,,,,,,true,,,,,,true
+zaanse-2581158927185003618,17-09-2025,,Mevr.,,Test,,Persoon168,test168@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-1597955010791526908,17-09-2025,,Mevr.,,Test,,Persoon169,test169@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-7464019847828250309,17-09-2025,,Mevr.,,Test,,Persoon170,test170@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-6244141906241720340,17-09-2025,,Dhr.,,Test,,Persoon171,test171@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-8028051338834222150,17-09-2025,,Mevr.,,Test,,Persoon172,test172@example-dev.invalid,,,,VP-,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-2537572289784023039,17-09-2025,,Mevr.,,Test,van der,Persoon173,test173@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-9108744227122699732,17-09-2025,,Mevr.,,Test,,Persoon174,test174@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-6705491315997266624,17-09-2025,,Mevr.,,Test,,Persoon175,test175@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-3926270465981650412,17-09-2025,,Mevr.,,Test,,Persoon176,test176@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-7524068766421780789,17-09-2025,,Mevr.,,Test,,Persoon177,test177@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-4004732492373310031,17-09-2025,,Dhr.,,Test,,Persoon178,test178@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-8678794378973774434,17-09-2025,,Mevr.,,Test,,Persoon179,test179@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-6126931111923049188,17-09-2025,,Dhr.,,Test,,Persoon180,test180@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-4583307335035144440,17-09-2025,,Mevr.,,Test,,Persoon181,test181@example-dev.invalid,,,,JT,0.0,,,,,,,,,,,,,,true,,,,,,true
+zaanse-7159686313681270716,17-09-2025,,Mevr.,,Test,,Persoon182,test182@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-6111096075863324077,17-09-2025,,Dhr.,,Test,van,Persoon183,test183@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-4534935379562243767,17-09-2025,,Mevr.,,Test,,Persoon184,test184@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-4614599591424728416,17-09-2025,,Mevr.,,Test,,Persoon185,test185@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-1271623494954285086,17-09-2025,,Dhr.,,Test,,Persoon186,test186@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-782736287596758252,17-09-2025,,Dhr.,,Test,,Persoon187,test187@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-4027090920743077740,17-09-2025,,Mevr.,,Test,,Persoon188,test188@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-3666742687077391771,17-09-2025,,Mevr.,,Test,van der,Persoon189,test189@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-1431134653868933106,17-09-2025,,Mevr.,,Test,van,Persoon190,test190@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-4618088142851722326,17-09-2025,,Mevr.,,Test,,Persoon191,test191@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-7702191246351988019,17-09-2025,,Dhr.,,Test,,Persoon192,test192@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-7415480683977401827,17-09-2025,,Mevr.,,Test,van,Persoon193,test193@example-dev.invalid,,,,Telefoonnummer controleren (fout bij inschrijving 17/9/2025),0.0,,,,,,,,,,,,,,true,,,,,,true
+zaanse-4333298751018338768,17-09-2025,,Mevr.,,Test,,Persoon194,test194@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-4786947938523225779,17-09-2025,,Mevr.,,Test,,Persoon195,test195@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-450141010114400897,17-09-2025,,Mevr.,,Test,de,Persoon196,test196@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-1151905151019134208,17-09-2025,,Mevr.,,Test,,Persoon197,test197@example-dev.invalid,,,,,0.0,,,,,,,,,,false,false,false,false,true,false,false,false,false,false,true
+zaanse-5465830357724974630,17-09-2025,,Mevr.,,Test,,Persoon198,test198@example-dev.invalid,,,,Gegevens checken (kloppen namen wel? 17-09-2025),0.0,,,,,,,,,,,,,,true,,,,,,true
+zaanse-3675016157444937876,17-09-2025,,Mevr.,,Test,,Persoon199,test199@example-dev.invalid,,,,,0.0,,,,,,,,,,,,,,true,,,,,,true

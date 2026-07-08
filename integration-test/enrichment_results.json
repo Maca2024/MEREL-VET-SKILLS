@@ -1,0 +1,124 @@
+{
+  "rows": [
+    {
+      "row_index": 27,
+      "product_type": "veterinair geneesmiddel",
+      "fields": {
+        "registratie": {"voorstel": "REGNL08472", "confidence": "Hoog"},
+        "farmaceutische vorm": {"voorstel": "tablet", "confidence": "Hoog"},
+        "werkzame stof(fen) en concentratie": {"voorstel": "fenbendazol 500 mg/tablet", "confidence": "Hoog"},
+        "kanalisatie": {"voorstel": "vrij", "confidence": "Hoog"},
+        "humaan": {"voorstel": "false", "confidence": "Hoog"},
+        "zoektermen": ["ontworming", "anthelminticum"]
+      },
+      "bron_url": "https://www.diergeneesmiddeleninformatiebank.nl/nl/regnl8472",
+      "resultaatstatus": "exact gevonden",
+      "toelichting_controle": "Ronde 1 (CBG Diergeneesmiddeleninformatiebank, regnl8472) direct geraadpleegd. Alle reeds ingevulde huidige velden (fenbendazol 500 mg/tablet, tablet, vrij) komen exact overeen met de officiële registratie -- geen wijziging nodig, alleen bevestiging."
+    },
+    {
+      "row_index": 31,
+      "product_type": "veterinair geneesmiddel",
+      "fields": {
+        "registratie": {"voorstel": "REGNL107727", "confidence": "Hoog"},
+        "farmaceutische vorm": {"voorstel": "tablet", "confidence": "Hoog"},
+        "werkzame stof(fen) en concentratie": {"voorstel": "pimobendan 1,25 mg/tablet", "confidence": "Hoog"},
+        "kanalisatie": {"voorstel": "uda", "confidence": "Hoog"},
+        "humaan": {"voorstel": "false", "confidence": "Hoog"},
+        "zoektermen": ["hartmedicatie", "pimobendan"]
+      },
+      "bron_url": "https://www.diergeneesmiddeleninformatiebank.nl/nl/regnl107727",
+      "resultaatstatus": "exact gevonden",
+      "toelichting_controle": "Ronde 1 (CBG-databank, regnl107727) geraadpleegd -- exacte match op naam+sterkte (Cardisure 1,25 mg tabletten met smaakstof voor honden, pimobendan). Farmaceutische vorm en werkzame stof waren leeg in de bron-workbook; nu ingevuld met Hoog-confidence, geen conflict met huidig (kanalisatie 'uda' kwam al overeen)."
+    },
+    {
+      "row_index": 38,
+      "product_type": "veterinair geneesmiddel",
+      "fields": {
+        "registratie": {"voorstel": "REGNL112655/EU/2/13/154/002", "confidence": "Hoog"},
+        "farmaceutische vorm": {"voorstel": "tablet", "confidence": "Hoog"},
+        "werkzame stof(fen) en concentratie": {"voorstel": "oclacitinib (als oclacitinib maleaat) 3,6 mg/tablet", "confidence": "Hoog"},
+        "kanalisatie": {"voorstel": "uda", "confidence": "Hoog"},
+        "humaan": {"voorstel": "false", "confidence": "Hoog"},
+        "zoektermen": ["jeukstiller", "atopie"]
+      },
+      "bron_url": "https://www.diergeneesmiddeleninformatiebank.nl/ords/f?p=111%3A3%3A%3ASEARCH%3ANO%3A%3AP0_DOMAIN%2CP0_LANG%2CP3_RVG1%3AV%2CNL%2C112655",
+      "resultaatstatus": "exact gevonden",
+      "toelichting_controle": "Ronde 1 (CBG-databank, regnl112655, filmomhulde tabletten voor honden) + ronde 2 (EU-nummer EU/2/13/154/002 hoort bij hetzelfde product, niet als aparte match geteld, conform de Apoquel-voorbeeldregel in source-hierarchy.md) + ronde 5-achtige aanvullende bevestiging via Zoetis-bijsluiter voor exacte concentratie en afleverstatus UDA. Bestond een S/M/L-verwarring: REGNL112655 = 3,6 mg filmomhulde variant, niet de losstaande kauwtablet-variant (REGNL127436) -- verpakking/sterkte geverifieerd voordat voorgesteld."
+    },
+    {
+      "row_index": 42,
+      "product_type": "veterinair geneesmiddel",
+      "fields": {
+        "registratie": {"voorstel": "REGNL09761", "confidence": "Hoog"},
+        "farmaceutische vorm": {"voorstel": "neusdruppels, suspensie (lyofilisaat en suspendeervloeistof voor suspensie voor nasale toediening)", "confidence": "Hoog"},
+        "werkzame stof(fen) en concentratie": {"voorstel": "levende bordetella bronchiseptica; levend hondenparainfluenzavirus (CPiV)", "confidence": "Hoog"},
+        "kanalisatie": {"voorstel": "udd", "confidence": "Hoog"},
+        "humaan": {"voorstel": "false", "confidence": "Hoog"},
+        "zoektermen": ["vaccinatie", "kennelhoest"]
+      },
+      "bron_url": "https://www.diergeneesmiddeleninformatiebank.nl/nl/regnl9761",
+      "resultaatstatus": "exact gevonden",
+      "toelichting_controle": "Ronde 1 (CBG-databank, regnl9761) geraadpleegd. Alle reeds ingevulde huidige velden komen inhoudelijk overeen (levende Bordetella bronchiseptica + CPiV, udd, nasale toediening) -- alleen bevestiging, geen wijziging."
+    },
+    {
+      "row_index": 60,
+      "product_type": "veterinair geneesmiddel",
+      "fields": {
+        "registratie": {"voorstel": "REGNL03794", "confidence": "Hoog"},
+        "farmaceutische vorm": {"voorstel": "ooggel", "confidence": "Hoog"},
+        "werkzame stof(fen) en concentratie": {"voorstel": "fusidinezuur 10 mg/gram", "confidence": "Hoog"},
+        "kanalisatie": {"voorstel": "udd", "confidence": "Hoog"},
+        "humaan": {"voorstel": "false", "confidence": "Hoog"},
+        "zoektermen": ["oogontsteking", "antibioticum"]
+      },
+      "bron_url": "https://www.diergeneesmiddeleninformatiebank.nl/nl/regnl3794",
+      "resultaatstatus": "exact gevonden",
+      "toelichting_controle": "Ronde 1 (CBG-databank, regnl3794, tevens Dechra-SPC) geraadpleegd. Alle huidige velden (fusidinezuur 10 mg/gram, ooggel, udd) komen exact overeen -- alleen bevestiging."
+    },
+    {
+      "row_index": 70,
+      "product_type": "veterinair geneesmiddel",
+      "fields": {
+        "registratie": {"voorstel": "REGNL109197", "confidence": "Gemiddeld"},
+        "farmaceutische vorm": {"voorstel": "suspensie voor injectie", "confidence": "Hoog"},
+        "werkzame stof(fen) en concentratie": {"voorstel": "geinactiveerde Leptospira interrogans serogroep Canicola, Icterohaemorrhagiae, Australis + Leptospira kirschneri serogroep Grippotyphosa (Nobivac L4) -- DHP-component niet gedekt door dit registratienummer", "confidence": "Gemiddeld"},
+        "kanalisatie": {"voorstel": "udd", "confidence": "Hoog"},
+        "humaan": {"voorstel": "false", "confidence": "Hoog"},
+        "zoektermen": ["vaccinatie", "leptospirose"]
+      },
+      "bron_url": "https://www.diergeneesmiddeleninformatiebank.nl/nl/regnl109197",
+      "resultaatstatus": "handmatige controle nodig",
+      "toelichting_controle": "Ronde 1 (CBG-databank, regnl109197) + ronde 2 (aanvullende samenstelling via EU-registratiedocument) uitgevoerd. BEVINDING: REGNL109197 is uitsluitend 'Nobivac L4 suspensie voor injectie voor honden' (4-serogroep Leptospira-vaccin) -- geen DHP-component. De productnaam in deze rij ('Nobivac Lepto 4 / DHP vaccinatie') suggereert een gecombineerde vaccinatie-afspraak (Lepto4 + DHP als twee vaccins in 1 consult), terwijl het rijformaat maar 1 registratieveld heeft. Dit is een harde tegenspraak tussen naam en het enkele registratienummer -- conform de vuistregel in confidence-and-status.md (kernveld-tegenspraak -> minimaal 'handmatige controle nodig') expliciet zo gerapporteerd in plaats van een DHP-registratienummer te verzinnen of te negeren dat de rij mogelijk 2 producten beschrijft."
+    },
+    {
+      "row_index": 78,
+      "product_type": "veterinair geneesmiddel",
+      "fields": {
+        "registratie": {"voorstel": "REGNL114513", "confidence": "Hoog"},
+        "farmaceutische vorm": {"voorstel": "tablet", "confidence": "Hoog"},
+        "werkzame stof(fen) en concentratie": {"voorstel": "amoxicilline 500 mg/tablet (als amoxicilline trihydraat)", "confidence": "Hoog"},
+        "kanalisatie": {"voorstel": "udd", "confidence": "Hoog"},
+        "humaan": {"voorstel": "false", "confidence": "Hoog"},
+        "zoektermen": ["antibioticum"]
+      },
+      "bron_url": "https://www.diergeneesmiddeleninformatiebank.nl/nl/regnl114513",
+      "resultaatstatus": "exact gevonden",
+      "toelichting_controle": "Ronde 1 (CBG-databank, regnl114513, 'Amoxibactin 500 mg, tabletten voor honden') geraadpleegd -- exacte match op naam+sterkte+diersoort. Farmaceutische vorm en werkzame stof waren leeg, nu Hoog-confidence ingevuld; kanalisatie udd komt overeen met huidig. Geen actuele KNMvD/WVAB-tier-bevestiging gevonden binnen deze sessie -> alleen generieke term 'antibioticum', geen AB-1e/2e/3e-keus-label toegekend (conform de regel: geen richtlijn geraadpleegd, dan geen tier verzinnen)."
+    },
+    {
+      "row_index": 79,
+      "product_type": "veterinair geneesmiddel",
+      "fields": {
+        "registratie": {"voorstel": "REGNL113962", "confidence": "Hoog"},
+        "farmaceutische vorm": {"voorstel": "tablet", "confidence": "Hoog"},
+        "werkzame stof(fen) en concentratie": {"voorstel": "furosemide 10 mg/tablet", "confidence": "Hoog"},
+        "kanalisatie": {"voorstel": "uda", "confidence": "Hoog"},
+        "humaan": {"voorstel": "false", "confidence": "Hoog"},
+        "zoektermen": ["diureticum", "plasmiddel"]
+      },
+      "bron_url": "https://www.diergeneesmiddeleninformatiebank.nl/nl/regnl113962",
+      "resultaatstatus": "exact gevonden",
+      "toelichting_controle": "Ronde 1 (CBG-databank, regnl113962, 'Furosoral 10 mg tabletten voor honden en katten') geraadpleegd -- exacte match. Farmaceutische vorm en werkzame stof waren leeg, nu Hoog-confidence ingevuld; kanalisatie uda komt overeen met huidig."
+    }
+  ]
+}
