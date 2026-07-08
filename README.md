@@ -120,6 +120,15 @@ Expliciete `--*`-vlaggen winnen altijd van auto-detectie. Het template-asset (`a
 
 **Voor je het aan de klant geeft:** open elk outputbestand zelf één keer. Geen reparatie-prompt, elke dropdown-pijl werkt nog. Dat is de enige acceptatietest die telt.
 
+**Tests draaien:** vanuit de map van déze skill zelf, niet vanuit de repo-root:
+
+```bash
+cd animana-rpa-product-builder
+python -m pytest tests/    # 20 passed
+```
+
+Beide skills hebben elk een eigen `tests/conftest.py`. Zonder package-structuur botst Python's moduleregistratie als je `pytest` vanuit de repo-root met beide testmappen tegelijk aanroept (`ImportError: cannot import name ... from 'conftest'`) — dat is een pytest-invocatiedetail, geen bug in de suites zelf. Draai elke suite dus altijd los, vanuit zijn eigen map.
+
 ### Volledige kolom-mapping (Skill 1)
 
 Directe 1:1-kopie tenzij anders vermeld:
