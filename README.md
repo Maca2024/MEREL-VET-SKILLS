@@ -366,7 +366,7 @@ Ontdekt op 8 juli 2026, ná deze README's eerste versie, via een echte smoke tes
 
 ## Lessons learned — de Excel-heropslag die de halve catalogus opat
 
-Ontdekt op 11 juli 2026, bij het nalopen van de **eerste echte klantrun** (account Wagenrenk, 9 juli). Niet door een test, maar door één getal te vergelijken: de bronexport bevatte 4519 productregels, het opgeleverde `V1 compleet.xlsx` bevatte er 2225. Ruim de helft van de catalogus was weg — en van die 2294 verdwenen producten stonden er slechts 722 in `malformed-rows.csv`. De overige ~1572 waren spoorloos: nergens gemeld, nergens geteld. Het bestand heette nog steeds "compleet".
+Ontdekt op 11 juli 2026, bij het nalopen van de **eerste echte klantrun** (een echt kliniekaccount, 9 juli). Niet door een test, maar door één getal te vergelijken: de bronexport bevatte 4519 productregels, het opgeleverde `V1 compleet.xlsx` bevatte er 2225. Ruim de helft van de catalogus was weg — en van die 2294 verdwenen producten stonden er slechts 722 in `malformed-rows.csv`. De overige ~1572 waren spoorloos: nergens gemeld, nergens geteld. Het bestand heette nog steeds "compleet".
 
 **Wat er aan de hand was.** De aangeleverde export had een rondje Excel gemaakt (openen en opnieuw opslaan, met de Nederlandse puntkomma als lijstscheidingsteken). Excel laat daar drie sporen achter:
 

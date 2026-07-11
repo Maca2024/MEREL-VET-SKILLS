@@ -7,7 +7,7 @@ its inner quotes doubled.
 Feeding that to a plain csv.reader leaves the quote state open across line
 boundaries, so entire blocks of the file are swallowed into a single record and
 vanish -- not even counted as malformed. That is exactly what happened on the
-first real client run (Wagenrenk, 9 jul 2026): 4519 source rows in, 2225 rows
+first real client run (9 jul 2026): 4519 source rows in, 2225 rows
 out, and the workbook was still labelled 'compleet'.
 
 These tests pin down both halves of the fix: the reader must recover the rows,
