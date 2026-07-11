@@ -364,6 +364,28 @@ Ontdekt op 8 juli 2026, ná deze README's eerste versie, via een echte smoke tes
 
 ---
 
+## Lessons learned — de Excel-heropslag die de halve catalogus opat
+
+Ontdekt op 11 juli 2026, bij het nalopen van de **eerste echte klantrun** (account Wagenrenk, 9 juli). Niet door een test, maar door één getal te vergelijken: de bronexport bevatte 4519 productregels, het opgeleverde `V1 compleet.xlsx` bevatte er 2225. Ruim de helft van de catalogus was weg — en van die 2294 verdwenen producten stonden er slechts 722 in `malformed-rows.csv`. De overige ~1572 waren spoorloos: nergens gemeld, nergens geteld. Het bestand heette nog steeds "compleet".
+
+**Wat er aan de hand was.** De aangeleverde export had een rondje Excel gemaakt (openen en opnieuw opslaan, met de Nederlandse puntkomma als lijstscheidingsteken). Excel laat daar drie sporen achter:
+
+1. Achter elke regel komt een reeks lege puntkomma-kolommen (`;;;;;;;;;;`). Die plakken vast aan de laatste kolomnaam in de header (`werkzame stof(fen) en concentratie;;;;;;;;;;`) én aan de laatste waarde van elke ongequote regel — waardoor een echte kolom voor het hele bestand stilletjes zijn naam kwijtraakt.
+2. Elke regel die een aanhalingsteken of puntkomma bevat, wordt herschreven tot **één gequote cel** die de volledige oorspronkelijke komma-record bevat, met de aanhalingstekens erbinnen verdubbeld.
+3. Excel doet dat **regel voor regel**. Een record met een regelafbreking in een memo-veld krijgt dus op elke helft een eigen wikkel.
+
+Een gewone `csv.reader` over zo'n bestand blijft na een niet-sluitend aanhalingsteken "binnen de quotes" hangen en slikt hele blokken regels op in één record. Die regels worden nooit als malformed geteld — ze bestaan simpelweg niet meer voor de parser. Dát is het verschil tussen 722 gemelde en 2294 daadwerkelijk verdwenen producten.
+
+**Fix (twee delen).** `readers.py` parseert nu regel voor regel, voegt regels alleen samen wanneer dát een welgevormd record oplevert, en pakt de Excel-cel uit — waarbij elk bereik zowel rauw als uitgepakt geprobeerd wordt, omdat de twee helften van een gesplitst record eerst elk hun eigen wikkel kwijt moeten voordat ze weer aan elkaar passen. Op hetzelfde klantbestand: **4053 van 4519 regels** parseren nu (was 2225); de 269 die het nog steeds niet halen, worden gemeld in plaats van te verdwijnen. Alle reparaties zijn afhankelijk gemaakt van het artefact op de header, zodat een schone export exact zoals voorheen gelezen wordt — bewezen met een regressietest tegen de dev-fixture.
+
+Daarnaast weigert `build_rpa_products.py` nu werkboeken met het label "compleet" te schrijven zodra meer dan 2% van de bronregels onleesbaar is. `--allow-partial` overschrijft dat bewust. Stille dataverlies op een klantcatalogus is erger dan een gestopte run.
+
+**De les.** De skill deed precies wat hij was gebouwd om te doen — hij las het bestand, telde wat hij las, en rapporteerde eerlijk over wat hij zag falen. Het probleem was dat hij niet kon zien wat hij *niet* zag. Een pijplijn die invoer verwerkt moet daarom niet alleen tellen wat er misgaat, maar ook controleren of het aantal verwerkte records overeenkomt met het aantal aangeboden records — en bij een gat tussen die twee stoppen, niet doorgaan. Een geruststellend woord als "compleet" in een bestandsnaam is een belofte; die hoort door de code afgedwongen te worden, niet door de hoop dat de invoer schoon was.
+
+**Praktische consequentie voor het proces.** Een Animana-export mag níét in Excel geopend en opnieuw opgeslagen worden voordat de skill hem krijgt. Merels eigen testaccount-export (3317 rijen, rechtstreeks uit Animana, nooit door Excel) parseert voor 100% — het probleem ontstaat pas bij de tussenstap. Krijg je een export die er wél doorheen is geweest, dan meldt de skill dat nu expliciet in de foutmelding.
+
+---
+
 ## Integratietest: de echte cijfers
 
 Op 8 juli 2026 is een volledige, niet-gesimuleerde keten gedraaid: Skill 1 tegen de dev-fixtures → echte Skill-1-output → Skill 2's `validate_and_export.py` rechtstreeks tegen die output → een echte (niet-gesimuleerde) agentic onderzoeksronde op 8 rijen met WebSearch/WebFetch tegen de bronhiërarchie → `write_output.py`. Alles hieronder komt rechtstreeks uit `integration-test/RESULTS.md`, niet uit een samenvatting.
@@ -460,6 +482,7 @@ Met die kanttekening: deze drie scores worden hier ongewijzigd en zonder interpr
 |---|---|
 | Skill 1 — deterministische ETL (mapping, dropdown-herbouw, XML-schrijver) | ✅ **Productieklaar** — 20/20 tests groen, geverifieerd op echte dev-fixtures (299 rijen) én een synthetische 550-rijen-scalingtest |
 | Skill 1 — numeric-fallback-flag-duplicatiebug | ✅ **Gefixt + regressietest toegevoegd** |
+| Skill 1 — dataverlies bij een in Excel heropgeslagen export | ✅ **Gefixt + 6 regressietests** — eerste echte klantrun leverde 2225 van 4519 producten (rest stil verdwenen); nu 4053, en een gate weigert nog langer "compleet" op een deelcatalogus |
 | Skill 2 — mechanische I/O (validate/write) + deterministische decision_logic | ✅ **Productieklaar** — 53/53 tests groen na de trailing-punt/HTML-entiteit-fix |
 | Skill 2 — Covetrus-fallback kolomtoewijzing | ✅ **Gefixt + geverifieerd tegen de volle 17.551-rijen-asset** (was off-by-one) |
 | Skill 2 — agentic onderzoeksloop (WebSearch/WebFetch, bronhiërarchie, confidence) | ✅ **Bewezen op 8 echte rijen**, ⚠️ **niet bewezen op schaal** (≥90%-dekkingsdoel vereist de volledige batching-workflow op een compleet bestand — nog niet gedraaid) |
@@ -467,7 +490,7 @@ Met die kanttekening: deze drie scores worden hier ongewijzigd en zonder interpr
 | RALF-gate over de oorspronkelijke bouw van beide skills | ❌ **Nooit gedraaid** (worktree-isolatiefout) — zie [transparantiesectie](#bekende-incidenten--transparantie) |
 | RALF-gate over het test-/integratiewerk | ⚠️ **Wel gedraaid, sterk wisselende scores** (0 / 100 / 49) — zie tabel hierboven |
 | Validatie tegen echte klinieklijstdata | ⏸️ **Bewust niet hier uitgevoerd** — Merel's beslissing, gebeurt op de Kathedraal |
-| GitHub-repo (deze repo) | ⏸️ **Nog niet aangemaakt/gepusht** — deze staging-tree heeft geen `.git`-map (`git status` hier geeft "not a git repository"); het aanmaken van het publieke GitHub-repo en pushen is een aparte, nog openstaande taak, zie [`CONTEXT.md` § 6](CONTEXT.md#6-known-gaps--open-items-be-aware-dont-silently-fix) |
+| GitHub-repo (deze repo) | ✅ **Live en publiek** — [Maca2024/MEREL-VET-SKILLS](https://github.com/Maca2024/MEREL-VET-SKILLS) |
 
 ---
 
