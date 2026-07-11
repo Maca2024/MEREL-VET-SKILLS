@@ -51,7 +51,11 @@ def test_malformed_row_does_not_shift_following_good_rows(tmp_path):
     """Fully synthetic, controlled: row 2 is malformed (one extra field),
     rows 1 and 3 are good. The 'compleet' output must contain exactly the 2
     good rows, in their own right -- row 3's data must not get attributed to
-    row 2's position, and vice versa."""
+    row 2's position, and vice versa.
+
+    This deliberately tiny file drops 1 of 3 rows (33%), which trips the
+    completeness gate (see test_excel_roundtrip_export.py), so it runs with
+    --allow-partial: the subject here is row alignment, not the gate."""
     header = ["id", "productgroep", "naam", "verkoopprijs", "kostprijs", "actief", "barcode"]
     src = tmp_path / "product_export.csv"
     with open(src, "w", newline="", encoding="utf-8") as fh:
@@ -65,7 +69,7 @@ def test_malformed_row_does_not_shift_following_good_rows(tmp_path):
 
     out = tmp_path / "out"
     out.mkdir()
-    result = run_cli(out, product_export=src, productgroups=productgroups)
+    result = run_cli(out, product_export=src, productgroups=productgroups, allow_partial=True)
     assert result.returncode == 0, result.stdout + result.stderr
 
     assert "Malformed/unparseable source rows skipped (1):" in result.stdout

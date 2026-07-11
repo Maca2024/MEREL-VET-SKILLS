@@ -55,10 +55,12 @@ def run_cli(output_dir: Path, **kwargs) -> CliResult:
     kwargs.setdefault("account_name", "Test Kliniek Dev")
     kwargs.setdefault("output_dir", output_dir)
     for key, value in kwargs.items():
-        if value is None:
+        if value is None or value is False:
             continue
         flag = "--" + key.replace("_", "-")
         args.append(flag)
+        if value is True:  # store_true flag, e.g. --allow-partial: takes no value
+            continue
         args.append(str(value))
     proc = subprocess.run(args, capture_output=True, text=True, encoding="utf-8", errors="replace")
     return CliResult(proc.returncode, proc.stdout, proc.stderr, Path(output_dir))

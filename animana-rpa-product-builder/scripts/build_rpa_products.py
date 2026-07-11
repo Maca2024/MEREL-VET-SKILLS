@@ -38,6 +38,11 @@ from rpa_builder.mapping import ACCOUNT_BOUND_DROPDOWN_COLUMNS
 
 DEFAULT_TEMPLATE = Path(__file__).parent.parent / "assets" / "RPA_Products_template.xlsx"
 
+# A handful of unparseable rows in an export is normal; losing a serious share
+# of the catalogue is not, and a workbook named "compleet" must never be handed
+# to a clinic when that has happened.
+MAX_DROP_RATE = 0.02
+
 
 def parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -51,6 +56,9 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--input-dir", type=Path, help="auto-classify files in this folder for any --* input not given explicitly")
     p.add_argument("--account-name", required=True)
     p.add_argument("--output-dir", type=Path, required=True)
+    p.add_argument("--allow-partial", action="store_true",
+                   help=f"write the workbooks even when more than {MAX_DROP_RATE:.0%} of the "
+                        "source rows are unparseable (default: refuse and stop)")
     return p.parse_args()
 
 
@@ -185,6 +193,18 @@ def main() -> int:
     active_name = f"RPA {safe_account} {datum} V1 actief.xlsx"
     complete_path = unique_output_path(args.output_dir, complete_name)
     active_path = unique_output_path(args.output_dir, active_name)
+
+    malformed_path = args.output_dir / f"RPA {safe_account} {datum} malformed-rows.csv"
+    dropped = len(parse_result.malformed_rows)
+    total = parse_result.source_row_count
+    if total and dropped / total > MAX_DROP_RATE and not args.allow_partial:
+        report.write_malformed_csv(malformed_path, parse_result.malformed_rows)
+        print(f"ERROR: {dropped} of {total} source rows ({dropped / total:.1%}) could not be parsed.")
+        print("Refusing to write workbooks labelled 'compleet' from a partial catalogue.")
+        print(f"  which rows: {malformed_path}")
+        print("Check the export first -- an Animana export that has been opened and re-saved in")
+        print("Excel is the usual cause. Re-run with --allow-partial to accept the loss anyway.")
+        return 3
 
     template.build_zip(complete_path, sheet1_complete, sheet2_xml)
     template.build_zip(active_path, sheet1_active, sheet2_xml)
